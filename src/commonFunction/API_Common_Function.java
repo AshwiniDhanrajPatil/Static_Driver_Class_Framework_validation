@@ -1,4 +1,4 @@
-package commonFunctionPackage;
+package commonFunction;
 import io.restassured.response.Response;
 
 import io.restassured.RestAssured;

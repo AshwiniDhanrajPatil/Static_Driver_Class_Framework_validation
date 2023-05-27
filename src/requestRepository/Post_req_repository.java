@@ -1,10 +1,10 @@
-package requestRepositoryPackage;
+package requestRepository;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import commonFunctionPackage.Utility_Common_Functions;
+import commonFunction.Utility_Common_Functions;
 
 public class Post_req_repository {
 	public static String base_URI()
@@ -16,7 +16,7 @@ public class Post_req_repository {
 
 public static String post_resource()
 {
-	String resource="/api/users";
+	String resource="api/users";
 	return resource;
 }
 	

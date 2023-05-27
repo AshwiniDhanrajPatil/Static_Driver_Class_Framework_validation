@@ -1,5 +1,6 @@
-/META-INF/
-/commonFunctionPackage/
-/driverClass.class
+/commonFunction/
 /requestRepositoryPackage/
 /testClassPackage/
+/requestRepository/
+/testClass/
+/META-INF/

@@ -3,8 +3,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 
-import commonFunctionPackage.Utility_Common_Functions;
-import testClassPackage.Post_tc_1;
+import commonFunction.Utility_Common_Functions;
+import testClass.Post_tc_1;
 
 public class driverClass {
     

@@ -1,4 +1,4 @@
-package commonFunctionPackage;
+package commonFunction;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -44,7 +44,7 @@ public class Utility_Common_Functions {
 			  //access the row
 			  XSSFSheet sheet=xSSFWorkbookObj.getSheetAt(i);
 			  Iterator<Row> rows=sheet.iterator();
-			  //Row r=rows.next();
+			  Row r=rows.next();
 			  while (rows.hasNext())
 			  	{
 				  Row r1=rows.next();

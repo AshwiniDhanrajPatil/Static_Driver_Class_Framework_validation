@@ -1,14 +1,15 @@
-package testClassPackage;
+package testClass;
 import static io.restassured.RestAssured.given;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
 import org.testng.Assert;
-import commonFunctionPackage.API_Common_Function;
-import commonFunctionPackage.Utility_Common_Functions;
+
+import commonFunction.API_Common_Function;
+import commonFunction.Utility_Common_Functions;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import requestRepositoryPackage.Post_req_repository;
+import requestRepository.Post_req_repository;
 
 public class Post_tc_1
 {
